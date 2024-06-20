@@ -8,3 +8,24 @@
     --pink-color: #FF589E;
     --primary-color: #8261EE;
 }
+
+
+/* Start Box Header  */
+
+.box-header__title {
+    font-size: 2.8rem;
+    color: var(--white-color);
+    margin: 45px 0px 24px 0px;
+    text-align: center;
+}
+
+.box-header__desc {
+    text-align: center;
+    width: 580px;
+    color: var(--white-color);
+    margin: auto;
+    font-size: 1.3rem;
+    margin-bottom: 45px;
+}
+
+/* End Box Header  */

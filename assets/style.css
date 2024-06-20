@@ -53,6 +53,7 @@ body {
     font-size: 1.3rem;
     text-decoration: none;
     line-height: 3;
+    transition: .5s;
 }
 
 .header__inner-link:hover {
@@ -107,6 +108,7 @@ body {
     display: block;
     margin: auto;
     border-radius: 20px;
+    transition: .5s;
 }
 
 .banner__inner-button:hover {
@@ -149,6 +151,7 @@ body {
     background-color: var(--primary-color);
     position: relative;
     margin: auto;
+    transition: .5s;
 }
 
 .about__inner-img {
@@ -223,6 +226,7 @@ body {
     border-radius: 24px;
     position: relative;
     z-index: 1;
+    transition: all 0.3s ease 0s;
 }
 
 .process__inner-box:hover {
@@ -262,5 +266,84 @@ body {
     color: var(--text-color);
 }
 
-
 /* End Process  */
+
+
+/* Start Ask  */
+
+.ask {
+    padding: 70px 0px 120px 0px;
+}
+
+.ask .box-header .box-header__title {
+    color: var(--title-color);
+}
+
+.ask .box-header .box-header__desc {
+    color: var(--text-color);
+}
+
+.ask__member-box {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 20px;
+    padding: 26px;
+}
+
+.ask__member-box:hover > .ask__member-people .ask__member-info {
+    margin-left: 40px;
+    transition: all 0.3s ease 0s;
+}
+
+.ask__member-logo {
+    
+}
+
+.ask__member-logo img {
+    display: block;
+    margin: auto;
+}
+
+.ask__member-content {
+    color: var(--text-color);
+    line-height: 1.6;
+    font-size: 1.5rem;
+    margin: 25px 0px;
+}
+
+.ask__member-people {
+    display: flex;
+    align-items: center;
+}
+
+.ask__member-avatar {
+    width: 60px;
+    height: 60px;
+}
+
+.ask__member-avatar img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.ask__member-info {
+    transition: all 0.3s ease 0s;
+    margin-left: 24px;
+}
+
+.ask__member-name {
+    margin: 0;
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: var(--title-color);
+}
+
+.ask__member-job {
+    margin: 8px 0px 0px 0px;
+    font-size: 1.6rem;
+    color: var(--pink-color);
+}
+
+
+/* End Ask  */

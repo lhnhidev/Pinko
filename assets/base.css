@@ -1,5 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
+
+*::selection {
+    background-color: var(--pink-color);
+    color: #fff;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+}
+
 :root {
     --white-color: #fff;
     --black-color: #000;
@@ -29,3 +43,7 @@
 }
 
 /* End Box Header  */
+
+.deleted {
+    text-decoration-line: line-through;
+}

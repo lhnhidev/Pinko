@@ -473,3 +473,49 @@
 }
 
 /* End Number  */
+
+
+/* Start Blog  */
+
+.blog {
+    padding: 70px 0px 120px 0px;
+}
+
+.blog .box-header .box-header__title {
+    color: var(--title-color);
+}
+
+.blog .box-header .box-header__desc {
+    color: var(--text-color);
+}
+
+.blog__box .box-header .box-header__title {
+    text-decoration: none;
+    margin: 24px auto;
+    font-size: 1.8rem;
+    display: block;
+    transition: .5s;
+    font-weight: 500;
+}
+
+.blog__box .box-header .box-header__title:hover {
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--pink-color);
+}
+
+.blog__box .box-header .box-header__desc {
+    font-size: 1.3rem;
+    width: 100%;
+    line-height: 1.8;
+    margin-bottom: 25px;
+}
+
+.blog__box-img img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+}
+
+
+/* End Blog  */

@@ -552,10 +552,6 @@
     text-align: left;
 }
 
-.contact__form {
-    /* height: 300px; */
-}
-
 .contact__form .form-group {
     margin-bottom: 30px;
 }
@@ -563,10 +559,6 @@
 .contact__form-input {
     border: 1px solid #EEEEEE;
     border-radius: 30px;
-}
-
-.contact__form-name {
-
 }
 
 .contact__form .form-control {

@@ -34,6 +34,17 @@
     padding: 12px 18px;
 }
 
+.header__inner-bar {
+    display: none;
+    padding: 12px 40px;
+}
+
+.header__inner-bar a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 2.4rem;
+}
+
 .header__inner-link {
     color: var(--title-color);
     display: block;
@@ -202,6 +213,9 @@
 .process {
     padding-top: 70px;
     padding-bottom: 120px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
     background-image: url('../img/work-process-bg.png');
 }
 
@@ -225,6 +239,7 @@
 
 .process__inner-shadow {
     position: relative;
+    margin-bottom: 30px;
 }
 
 .process__inner-shadow > div {
@@ -275,6 +290,7 @@
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     border-radius: 20px;
     padding: 26px;
+    margin-bottom: 30px;
 }
 
 .ask__member-box:hover > .ask__member-people .ask__member-info {
@@ -343,6 +359,7 @@
     padding: 35px;
     background-color: #fff;
     border-radius: 20px;
+    margin-bottom: 50px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
@@ -487,6 +504,10 @@
 
 .blog .box-header .box-header__desc {
     color: var(--text-color);
+}
+
+.blog__box {
+    margin-bottom: 30px;
 }
 
 .blog__box .box-header .box-header__title {

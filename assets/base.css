@@ -35,7 +35,8 @@ body {
 
 .box-header__desc {
     text-align: center;
-    width: 580px;
+    width: 100%;
+    max-width: 580px;
     color: var(--white-color);
     margin: auto;
     font-size: 1.6rem;
